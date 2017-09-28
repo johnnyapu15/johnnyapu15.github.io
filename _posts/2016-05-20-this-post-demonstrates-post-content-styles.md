@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Demo"
-categories: junk
+categories: [junk, test]
 author: "Bart Simpson-Johnnyapu15"
 meta: "Springfield"
 ---
