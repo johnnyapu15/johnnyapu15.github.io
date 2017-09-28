@@ -6,7 +6,7 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   background-color: $brand-color;
-  color:#FFFFFF;
+
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -17,8 +17,9 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
   color:#FFFFFF;
+  float: left;
+
   &,
   &:visited {
     //color: $grey-color-dark;
@@ -28,7 +29,6 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
-  color:#FFFFFF;
   .nav-trigger {
       display: none;
   }
