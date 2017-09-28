@@ -5,8 +5,6 @@ layout: default
 <div class="home">
 
   {{ content }}
-
-  <h1 class="page-heading">Posts</h1>
   
   <ul class="post-list">
     {% for post in site.posts %}
@@ -15,6 +13,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
+            <a class="post-link" href="{{site.baseurl}}/categories/#{{category|slugize}}">[{{ post.categories | escape }}]</a>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
